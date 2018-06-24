@@ -10,6 +10,6 @@ package com.roit.momo.dao;
  * @author User
  */
 public interface Momo {
-    void order();
+    void order(int quantity);
     
 }

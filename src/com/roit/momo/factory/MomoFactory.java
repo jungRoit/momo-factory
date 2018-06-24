@@ -27,4 +27,16 @@ public class MomoFactory {
         }
     }
     
+    public void menu(){
+        System.out.println("---------------------------------------- \r\n"
+                + "Do you have any other orders? \r\n"
+                + "---------------------------------------- \r\n"
+                + "We Serve Chicken, Buff and Veg Momo \r\n"
+                + "Press 1 for Chicken Momo \r\n"
+                + "Press 2 for Buff Momo \r\n"
+                + "Press 3 for Veg Momo \r\n"
+                + "press 4 to Exit \r\n"
+                + "Please make a Choice");
+    }
+    
 }

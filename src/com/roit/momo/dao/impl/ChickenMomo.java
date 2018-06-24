@@ -12,10 +12,14 @@ import com.roit.momo.dao.Momo;
  * @author User
  */
 public class ChickenMomo implements Momo{
+    private int price = 150;
 
     @Override
-    public void order() {
-        System.out.println("Chicken Momo Ordered");
+    public void order(int quantity) {
+        int cost = price*quantity;
+        
+        System.out.println("Chicken Momo Ordered \r\n"
+                + "Rs: "+cost);
     }
     
     
